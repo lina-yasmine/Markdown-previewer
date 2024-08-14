@@ -21,16 +21,6 @@ h2.title {
   padding: 20px 0;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #74ffca;
-  }
-}
-
 .app {
   display: flex;
   flex-direction: column;
@@ -60,10 +50,6 @@ h2.title {
   border-left: 1px solid #ddd;
   overflow-y: auto;
   box-sizing: border-box;
-}
-
-.preview {
-  font-family: Arial, sans-serif;
 }
 
 .preview img {

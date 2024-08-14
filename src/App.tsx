@@ -26,8 +26,9 @@ Or _italic_.
 Or... wait for it... **_both!_**
 And feel free to go crazy ~~crossing stuff out~~.
 
-There's also [links](https://www.freecodecamp.org), and
+There's also [links](https://www.freecodecamp.org),  and
 > Block Quotes!
+
 
 - And of course there are lists.
   - Some are bulleted.
