@@ -29,7 +29,6 @@ And feel free to go crazy ~~crossing stuff out~~.
 There's also [links](https://www.freecodecamp.org),  and
 > Block Quotes!
 
-
 - And of course there are lists.
   - Some are bulleted.
      - With different indentation levels.
