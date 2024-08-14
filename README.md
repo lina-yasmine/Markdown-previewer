@@ -1,50 +1,18 @@
-# React + TypeScript + Vite
+# Markdown Previewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is part of the freeCodeCamp Front End Libraries Certification.
 
-Currently, two official plugins are available:
+A React-based Markdown previewer that allows users to write and preview Markdown content in real-time. This project demonstrates a live Markdown editor with React and integrates the `react-markdown` library and `remark-gfm` plugin to render Markdown with GitHub-flavored syntax.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Live Preview**: As users type Markdown in the editor, the rendered output updates instantly.
+- **GitHub-Flavored Markdown**: Supports common Markdown syntax and GitHub-flavored features like tables and task lists.
+- **Responsive Design**: The editor and previewer are styled to be responsive and user-friendly on various devices.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- **React**: For building the user interface.
+- **ReactMarkdown**: A library to render Markdown content as React components.
+- **Remark GFM**: A plugin to handle GitHub-flavored Markdown syntax.
+- **CSS**: Custom styles to enhance the user experience and responsiveness.
